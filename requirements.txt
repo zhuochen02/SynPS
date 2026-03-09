@@ -1,0 +1,14 @@
+torch==2.7.1
+torchvision==0.22.1
+einops
+numpy
+pillow
+matplotlib
+huggingface_hub
+safetensors
+requests
+transformers
+opencv-python
+sentencepiece
+protobuf
+invisible-watermark
