@@ -18,6 +18,8 @@
   <span class="author-block"><a href="https://wenli-vision.github.io/">Wen Li</a></span>
 </div>
 
+<br>
+
 ![teaser](./fig/synps_teaser.png)
 
 **SynPS** (**Syn**ergistically leverages **P**ositional embeddings and **S**emantic information) is a training-free method for complex non-rigid image editing. By synergistically integrating positional embeddings and semantic information, it improves the faithfulness of edits with large diffusion models (e.g., FLUX).
