@@ -6,11 +6,13 @@
 
 **SynPS** (**Syn**ergistically leverages **P**ositional embeddings and **S**emantic information) is a training-free method for complex non-rigid image editing. By synergistically integrating positional embeddings and semantic information, it improves the faithfulness of edits with large diffusion models (e.g., FLUX). Published at **CVPR 2026**.
 
-📄 **Paper** [arXiv:2512.14423](https://arxiv.org/abs/2512.14423) | 🌐 **Project Page** [synps26.github.io](https://synps26.github.io/)
+📄 **Paper** [arXiv:2512.14423](https://arxiv.org/abs/2512.14423)
+
+🌐 **Project Page** [synps26.github.io](https://synps26.github.io/)
 
 **Authors**: Zhuo Chen, Fanyue Wei, Runze Xu, Jingjing Li, Lixin Duan, Angela Yao, Wen Li
 
-## Method Overview
+## 🔆Method Overview
 
 Existing attention sharing mechanisms suffer from **attention collapse**: either positional embeddings or semantic features dominate visual content retrieval, leading to over-editing or under-editing. SynPS addresses this by:
 
@@ -19,7 +21,7 @@ Existing attention sharing mechanisms suffer from **attention collapse**: either
 3. **Adaptive Integration**: Scheduling `pe_weight` across timesteps so SynPS adaptively switches between positional and semantic cues, effectively avoiding both over- and under-editing.
 
 
-## Setup
+## ⚙️Setup
 
 ### Dependencies
 
@@ -46,7 +48,7 @@ This project uses the **FLUX.1-dev** model. As it is a gated repository, you nee
 
 Models will be downloaded to `./checkpoint` by default. You can override this with the `CHECKPOINTS_DIR` environment variable.
 
-## Quick Start
+## 💥Quick Start
 
 ### Jupyter Notebook
 
@@ -71,7 +73,7 @@ You can adjust the following parameters in `demo.ipynb`:
 | `offload` | `False` | Offload models to CPU to save VRAM |
 
 
-## Project Structure
+## 🏛️Project Structure
 
 ```
 SynPS/
@@ -91,7 +93,7 @@ SynPS/
 └── ...
 ```
 
-## Citation
+## 🌟Citation
 
 If you find this work useful for your research, please cite:
 
