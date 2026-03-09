@@ -1,8 +1,12 @@
 # [CVPR 2026] The Devil is in Attention Sharing: Improving Complex Non-rigid Image Editing Faithfulness via Attention Synergy
 
+<div align="center">
+
 [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)]()
 [![arXiv](https://img.shields.io/badge/arXiv-2512.14423-b31b1b.svg)](https://arxiv.org/abs/2512.14423)
 [![Project Page](https://img.shields.io/badge/Project_Page-synps26.github.io-green)](https://synps26.github.io/)
+
+</div>
 
 **SynPS** (**Syn**ergistically leverages **P**ositional embeddings and **S**emantic information) is a training-free method for complex non-rigid image editing. By synergistically integrating positional embeddings and semantic information, it improves the faithfulness of edits with large diffusion models (e.g., FLUX). Published at **CVPR 2026**.
 
@@ -10,7 +14,15 @@
 
 🌐 **Project Page** [synps26.github.io](https://synps26.github.io/)
 
-**Authors**: Zhuo Chen, Fanyue Wei, Runze Xu, Jingjing Li, Lixin Duan, Angela Yao, Wen Li
+<div align="center">
+  <span class="author-block"><a href="https://zhuochen02.github.io/">Zhuo Chen</a><sup>1*</sup>,</span>
+  <span class="author-block"><a href="https://wfanyue.github.io/">Fanyue Wei</a><sup>2*</sup>,</span>
+  <span class="author-block"><a href="#">Runze Xu</a><sup>1</sup>,</span>
+  <span class="author-block"><a href="https://lijin118.github.io/">Jingjing Li</a><sup>1</sup>,</span>
+  <span class="author-block"><a href="https://scholar.google.com/citations?user=inRIcS0AAAAJ&hl=zh-CN">Lixin Duan</a><sup>1</sup>,</span>
+  <span class="author-block"><a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a><sup>2</sup>,</span>
+  <span class="author-block"><a href="https://wenli-vision.github.io/">Wen Li</a><sup>1&dagger;</sup></span>
+</div>
 
 ## 🔆Method Overview
 
