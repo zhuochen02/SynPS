@@ -58,7 +58,7 @@ This project uses the **FLUX.1-dev** model. As it is a gated repository, you nee
    export HF_TOKEN="your_huggingface_token"
    ```
 
-Models will be downloaded to `./checkpoint` by default. You can override this with the `CHECKPOINTS_DIR` environment variable.
+Models will be downloaded to `./checkpoints` by default. You can override this with the `CHECKPOINTS_DIR` environment variable.
 
 ## 💥Quick Start
 
