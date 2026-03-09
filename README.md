@@ -8,21 +8,19 @@
 
 </div>
 
-**SynPS** (**Syn**ergistically leverages **P**ositional embeddings and **S**emantic information) is a training-free method for complex non-rigid image editing. By synergistically integrating positional embeddings and semantic information, it improves the faithfulness of edits with large diffusion models (e.g., FLUX). Published at **CVPR 2026**.
-
-📄 **Paper** [arXiv:2512.14423](https://arxiv.org/abs/2512.14423)
-
-🌐 **Project Page** [synps26.github.io](https://synps26.github.io/)
-
 <div align="center">
-  <span class="author-block"><a href="https://zhuochen02.github.io/">Zhuo Chen</a><sup>1*</sup>,</span>
-  <span class="author-block"><a href="https://wfanyue.github.io/">Fanyue Wei</a><sup>2*</sup>,</span>
-  <span class="author-block"><a href="#">Runze Xu</a><sup>1</sup>,</span>
-  <span class="author-block"><a href="https://lijin118.github.io/">Jingjing Li</a><sup>1</sup>,</span>
-  <span class="author-block"><a href="https://scholar.google.com/citations?user=inRIcS0AAAAJ&hl=zh-CN">Lixin Duan</a><sup>1</sup>,</span>
-  <span class="author-block"><a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a><sup>2</sup>,</span>
-  <span class="author-block"><a href="https://wenli-vision.github.io/">Wen Li</a><sup>1&dagger;</sup></span>
+  <span class="author-block"><a href="https://zhuochen02.github.io/">Zhuo Chen</a>,</span>
+  <span class="author-block"><a href="https://wfanyue.github.io/">Fanyue Wei</a>,</span>
+  <span class="author-block"><a href="#">Runze Xu</a>,</span>
+  <span class="author-block"><a href="https://lijin118.github.io/">Jingjing Li</a>,</span>
+  <span class="author-block"><a href="https://scholar.google.com/citations?user=inRIcS0AAAAJ&hl=zh-CN">Lixin Duan</a>,</span>
+  <span class="author-block"><a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a>,</span>
+  <span class="author-block"><a href="https://wenli-vision.github.io/">Wen Li</a></span>
 </div>
+
+![teaser](./assets/teaser.jpg)
+
+**SynPS** (**Syn**ergistically leverages **P**ositional embeddings and **S**emantic information) is a training-free method for complex non-rigid image editing. By synergistically integrating positional embeddings and semantic information, it improves the faithfulness of edits with large diffusion models (e.g., FLUX).
 
 ## 🔆Method Overview
 
